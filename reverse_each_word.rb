@@ -5,5 +5,5 @@ def reverse_each_word(phrase)
   arr_two << rev.reverse!
   
 end
-arr_two
+arr_two.join(" ")
 end
