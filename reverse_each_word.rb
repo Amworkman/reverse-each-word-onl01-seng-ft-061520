@@ -1,6 +1,7 @@
 def reverse_each_word(phrase)
  arr = phrase.split
  arr.collect do |rev|
-   return rev.reverse
+   arr2 = rev.reverse
 end
+arr2
 end
